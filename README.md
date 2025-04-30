@@ -12,7 +12,11 @@
     arr.sort();
     ```
  ### Answer
- - because `sort()` method sorts the array depending on the ascii code or UTF-16 code 
+ - because `sort()` method sorts the array depending on the ascii code or UTF-16 code
+ - ```js
+   const arr = [10, 5, 11];
+    arr.sort((a,b)=>a-b);
+   ```
 
 ### Practical
 * Write a JavaScript program that converts temperature from Celsius to Fahrenheit.
